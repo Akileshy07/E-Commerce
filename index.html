@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar  navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">KapdaBazar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-space-between"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#category" onclick="cat()">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contct</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container-fluid home section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="quote">
+              <h5>Trade in offer</h5>
+              <h2>First Come First Serve</h2>
+              <h1>Hurry Up !!! <br> Offer on <span id="typingText"></span></h1>
+              <p>
+                "Fashion is the armour to survive the reality <br />
+                of everyday life" <span>—Miuccia Prada</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 img">
+            <img
+              src="images/pexels-mike-murray-5648268-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- category  -->
+
+   <div id="category" class="section" >
+    <div class="container py-3">
+      <div class="row py-5">
+      <div class="col-md-12">
+        <h2 class="heading">CATEGORY</h2>
+      </div>
+      <div class="col-sm-6 col-md-3 gx-5">
+        <div class="card ">
+          <img src="images/jeans.jpg" alt="" class="card-img-top">
+   
+          <div class="card-body">
+              <h3 class="Card-title">TSHIRT</h3>
+            
+          </div>
+      </div>
+      </div>
+      <div class="col-sm-6 col-md-3 gx-5">
+        <div class="card ">
+          <img src="images/shirt.jpg" alt="" class="card-img-top">
+   
+          <div class="card-body">
+              <h3 class="Card-title">TSHIRT</h3>
+            
+          </div>
+      </div>
+      </div>
+      <div class="col-sm-6 col-md-3 gx-5">
+        <div class="card ">
+          <img src="images/tshirt (1).jpg" alt="" class="card-img-top">
+   
+          <div class="card-body">
+              <h3 class="Card-title">TSHIRT</h3>
+            
+          </div>
+      </div>
+      </div>
+      <div class="col-sm-6 col-md-3 gx-5">
+        <div class="card ">
+          <img src="images/shorts.jpg" alt="" class="card-img-top">
+   
+          <div class="card-body">
+              <h3 class="Card-title">TSHIRT</h3>
+            
+          </div>
+      </div>
+      </div>
+    </div>
+    </div>
+   </div>
+
+   <!-- counter  -->
+
+   <section class="container-fluid section counter_area ">
+    <div class="container-fluid counting">
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-6 col-md-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0 p-sm-0">
+            <div class="counter_item d-inline-block">
+              <span id="count1" class="counter fw-bold">10</span>
+              <span class="fw-bold val">M</span>
+            </div>
+            <h1>Users</h1>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0 p-sm-0">
+            <div class="counter_item d-inline-block ">
+              <span id="count2" class="counter fw-bold">23</span>
+              <span class="fw-bold val">K</span>
+            </div>
+            <h1>Purchase</h1>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0 p-sm-0">
+            <div class="counter_item d-inline-block ">
+              <span id="count3" class="counter fw-bold">5</span>
+              <span class="fw-bold val">M</span>
+            </div>
+            <h1>Coustomers</h1>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 single_counter text-center">
+          <div class="counter_inner p-3 p-md-0 p-sm-0">
+            <div class="counter_item d-inline-block ">
+              <span id="count4" class="counter fw-bold">56</span>
+              <span class="fw-bold val">K</span>
+            </div>
+            <h1>Reviews</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <!-- review  -->
+
+   <section class="section" id="review">
+    <div class="container py-3">
+      <div class="row py-5">
+        <div class="col-md-12">
+          <h2 class="heading">REVIEW</h2>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="r-box">
+            <div class="top">
+              <img src="images/shirt-removebg-preview.png" alt="">
+              <h3>Akilesh Yadav</h3>
+            </div>
+            <div class="bottom">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem voluptatem, quaerat maiores quam vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="r-box">
+            <div class="top">
+              <img src="images/shirt-removebg-preview.png" alt="">
+              <h3>Akilesh Yadav</h3>
+            </div>
+            <div class="bottom">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem voluptatem, quaerat maiores quam vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="r-box">
+            <div class="top">
+              <img src="images/shirt-removebg-preview.png" alt="">
+              <h3>Akilesh Yadav</h3>
+            </div>
+            <div class="bottom">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem voluptatem, quaerat maiores quam vitae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </section>
+
+  
+
+   <!-- testimonial  -->
+
+   <section class="section" id="testimonial">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-12">
+          <h2 class="heading">testimonial</h2>
+        </div>
+        <div class=" test">
+          <div class="card1">
+<img src="images/shirt.jpg" alt="" class="img-card" id="Coustomer-img">
+<h4 id="Coustomer-name">AKilesh <br> Yadav</h4>
+<div class="rating">
+  <span>
+    <i class="fa-solid fa-star"></i>
+  </span>
+  <span>
+    <i class="fa-solid fa-star"></i>
+  </span>
+  <span>
+    <i class="fa-solid fa-star"></i>
+  </span>
+  <span>
+    <i class="fa-solid fa-star"></i>
+  </span>
+  <span>
+    <i class="fa-regular fa-star-half-stroke"></i>  </span>
+</div>
+<p id="Coustomer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae inventore vero et sapiente optio quam quia ut cum cumque quae neque earum sunt eligendi porro veniam minima doloremque suscipit assumenda, placeat, asperiores natus magni labore. Optio qui dolores molestias est.</p>
+
+              <a href="" class="button prevBtn"><i class="fa-solid fa-arrow-left" id="up"></i></a>
+              <a href="" class="button nextBtn"><i class="fa-solid fa-arrow-right" id="down"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="section" id="contact">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-12">
+          <h2 class="heading">Contact Us</h2>
+        </div>
+       
+          <div class="contact-form">
+          <div class="col-md-4">
+            <div class="contact-img">
+              <img src="images/massage.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <div class="form-row">
+                <div class="form-group mb-3">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Jhon Doe">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                
+              </div>
+              <div class="form-group mb-4">
+                <label for="exampleFormControlTextarea1">Massage</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+             
+             
+              <button type="submit" class="btn  w-100">Submit</button>
+            </form>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+   </section>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

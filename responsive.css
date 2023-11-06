@@ -1,0 +1,158 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .quote{
+        position: absolute;
+        z-index: 1;
+        
+    }
+   
+    .img{
+       opacity: 50%;
+    }
+  
+    .quote h5{
+        color: #FFD95A;
+        font-weight: 500;
+    }
+    .quote h2{
+        color: #fff;
+        font-size: 35px;
+    }
+    .quote h1{
+        font-size: 45px;
+        color: #FFD95A;
+        font-family: 'Nosifer', cursive;
+    
+    }
+    .quote p{
+        font-size: 15px;
+        color: #fff;
+    }
+    .counter_inner{
+        margin-bottom: 5px;
+        margin-top: 5px;
+     }
+     .counter{
+        font-size: 85px;
+        color: #fff;
+    }
+  
+    .card1{
+        width: 90%;
+    }
+    .contact-form{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .contact-img img{
+        
+        margin-bottom: 40px ;
+        margin-left: 20%;
+    }
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .quote{
+        position: absolute;
+        z-index: 1;
+    }
+   
+    .img{
+       opacity: 50%;
+    }
+    
+     .counter{
+        font-size: 85px;
+        color: #fff;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .card1{
+        width: 90%;
+    }
+    .contact-form{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .contact-img img{
+        
+        margin-bottom: 40px ;
+        margin-left: 20%;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img{
+        opacity: 100%;
+        
+     }
+     .category .card{
+        width: 360px;
+     }
+     .r-box{
+        margin-bottom: 0px;
+     }
+     html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+   
+    .contact-form{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .contact-img img{
+        
+        margin-bottom: 40px ;
+        margin-left: 20%;
+    }
+     
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img{
+        opacity: 100%;
+     }
+     .r-box{
+        margin-bottom: 0px;
+     }
+     .contact-form{
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+     
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .img{
+        opacity: 100%;
+     }
+     .r-box{
+        margin-bottom: 0px;
+     }
+     .contact-form{
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+     
+}
